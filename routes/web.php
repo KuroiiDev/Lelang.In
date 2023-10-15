@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/testdb', function () {
     return view('/config/dbconn');
 });
+
+Route::get('/log-in', function () {
+    return view('/main/login');
+});
+
+Route::get('/sign-up', function () {
+    return view('/main/signup');
+});
